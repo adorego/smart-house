@@ -1,0 +1,25 @@
+.container{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    width: 87px;
+    height: 175px;
+}
+
+.plusIcon{
+    font-size: 40px;
+}
+
+.minusIcon{
+    font-size: 40px;
+}
+
+.container h6{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}

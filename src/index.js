@@ -1,13 +1,25 @@
+import './index.css';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import App from './App';
+import InteractiveRemote from './components/decos/interactive_remote';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Remote from './components/decos/remote';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/remote" element={<Remote />} />
+      <Route path='/interactive' element={<InteractiveRemote />} />
+      
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

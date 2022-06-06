@@ -1,0 +1,32 @@
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 16px;
+    height: 624px;
+    width: 280px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+}
+
+.numbersFirstRow{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top:356px;
+    left: 5%;
+}
+
+.room_name{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    
+    
+}
+.title_room_name{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}

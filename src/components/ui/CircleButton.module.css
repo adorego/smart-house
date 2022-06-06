@@ -1,0 +1,8 @@
+
+.container{
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    width: 57px;
+    height: 57px;
+    
+}
